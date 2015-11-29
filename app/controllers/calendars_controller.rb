@@ -1,5 +1,5 @@
 class CalendarsController < ApplicationController
   def index
-    calendars = cronofy.list_calendars
+    cronofy = Cronofy::Client.new()
   end
 end
