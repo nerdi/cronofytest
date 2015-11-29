@@ -48,6 +48,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
+    cronofy (0.7.0)
+      hashie (>= 2.1, < 4)
+      oauth2 (~> 1.0)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.6.0)
@@ -168,6 +171,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  cronofy
   jbuilder (~> 2.0)
   jquery-rails
   omniauth-cronofy
